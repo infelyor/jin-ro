@@ -6,4 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".game">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="233dp">
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="240dp"
+            android:layout_height="221dp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="120dp">
+
+        </com.google.android.material.chip.ChipGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
